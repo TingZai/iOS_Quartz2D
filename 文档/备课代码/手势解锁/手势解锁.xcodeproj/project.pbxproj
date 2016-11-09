@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8A17FE19931B4200DAF1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A17FD19931B4200DAF1FB /* Foundation.framework */; };
+		EC8A180019931B4200DAF1FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A17FF19931B4200DAF1FB /* CoreGraphics.framework */; };
+		EC8A180219931B4200DAF1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A180119931B4200DAF1FB /* UIKit.framework */; };
+		EC8A180819931B4200DAF1FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8A180619931B4200DAF1FB /* InfoPlist.strings */; };
+		EC8A180A19931B4200DAF1FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A180919931B4200DAF1FB /* main.m */; };
+		EC8A180E19931B4200DAF1FB /* YZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A180D19931B4200DAF1FB /* YZAppDelegate.m */; };
+		EC8A181119931B4200DAF1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8A180F19931B4200DAF1FB /* Main.storyboard */; };
+		EC8A181419931B4200DAF1FB /* YZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A181319931B4200DAF1FB /* YZViewController.m */; };
+		EC8A181619931B4200DAF1FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8A181519931B4200DAF1FB /* Images.xcassets */; };
+		EC8A181D19931B4200DAF1FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A181C19931B4200DAF1FB /* XCTest.framework */; };
+		EC8A181E19931B4200DAF1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A17FD19931B4200DAF1FB /* Foundation.framework */; };
+		EC8A181F19931B4200DAF1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A180119931B4200DAF1FB /* UIKit.framework */; };
+		EC8A182719931B4200DAF1FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8A182519931B4200DAF1FB /* InfoPlist.strings */; };
+		EC8A182919931B4200DAF1FB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A182819931B4200DAF1FB /* ____Tests.m */; };
+		EC8A1834199353D700DAF1FB /* YZLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A1833199353D700DAF1FB /* YZLockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8A182019931B4200DAF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8A17F219931B4200DAF1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8A17F919931B4200DAF1FB;
+			remoteInfo = "手势解锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8A17FA19931B4200DAF1FB /* 手势解锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势解锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A17FD19931B4200DAF1FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC8A17FF19931B4200DAF1FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC8A180119931B4200DAF1FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC8A180519931B4200DAF1FB /* 手势解锁-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "手势解锁-Info.plist"; sourceTree = "<group>"; };
+		EC8A180719931B4200DAF1FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8A180919931B4200DAF1FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8A180B19931B4200DAF1FB /* 手势解锁-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "手势解锁-Prefix.pch"; sourceTree = "<group>"; };
+		EC8A180C19931B4200DAF1FB /* YZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAppDelegate.h; sourceTree = "<group>"; };
+		EC8A180D19931B4200DAF1FB /* YZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAppDelegate.m; sourceTree = "<group>"; };
+		EC8A181019931B4200DAF1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8A181219931B4200DAF1FB /* YZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZViewController.h; sourceTree = "<group>"; };
+		EC8A181319931B4200DAF1FB /* YZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZViewController.m; sourceTree = "<group>"; };
+		EC8A181519931B4200DAF1FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC8A181B19931B4200DAF1FB /* 手势解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A181C19931B4200DAF1FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC8A182419931B4200DAF1FB /* 手势解锁Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "手势解锁Tests-Info.plist"; sourceTree = "<group>"; };
+		EC8A182619931B4200DAF1FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8A182819931B4200DAF1FB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		EC8A1832199353D700DAF1FB /* YZLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLockView.h; sourceTree = "<group>"; };
+		EC8A1833199353D700DAF1FB /* YZLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8A17F719931B4200DAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A180019931B4200DAF1FB /* CoreGraphics.framework in Frameworks */,
+				EC8A180219931B4200DAF1FB /* UIKit.framework in Frameworks */,
+				EC8A17FE19931B4200DAF1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A181819931B4200DAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A181D19931B4200DAF1FB /* XCTest.framework in Frameworks */,
+				EC8A181F19931B4200DAF1FB /* UIKit.framework in Frameworks */,
+				EC8A181E19931B4200DAF1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8A17F119931B4200DAF1FB = {
+			isa = PBXGroup;
+			children = (
+				EC8A180319931B4200DAF1FB /* 手势解锁 */,
+				EC8A182219931B4200DAF1FB /* 手势解锁Tests */,
+				EC8A17FC19931B4200DAF1FB /* Frameworks */,
+				EC8A17FB19931B4200DAF1FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8A17FB19931B4200DAF1FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A17FA19931B4200DAF1FB /* 手势解锁.app */,
+				EC8A181B19931B4200DAF1FB /* 手势解锁Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8A17FC19931B4200DAF1FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A17FD19931B4200DAF1FB /* Foundation.framework */,
+				EC8A17FF19931B4200DAF1FB /* CoreGraphics.framework */,
+				EC8A180119931B4200DAF1FB /* UIKit.framework */,
+				EC8A181C19931B4200DAF1FB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC8A180319931B4200DAF1FB /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A180C19931B4200DAF1FB /* YZAppDelegate.h */,
+				EC8A180D19931B4200DAF1FB /* YZAppDelegate.m */,
+				EC8A180F19931B4200DAF1FB /* Main.storyboard */,
+				EC8A1832199353D700DAF1FB /* YZLockView.h */,
+				EC8A1833199353D700DAF1FB /* YZLockView.m */,
+				EC8A181219931B4200DAF1FB /* YZViewController.h */,
+				EC8A181319931B4200DAF1FB /* YZViewController.m */,
+				EC8A181519931B4200DAF1FB /* Images.xcassets */,
+				EC8A180419931B4200DAF1FB /* Supporting Files */,
+			);
+			path = "手势解锁";
+			sourceTree = "<group>";
+		};
+		EC8A180419931B4200DAF1FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A180519931B4200DAF1FB /* 手势解锁-Info.plist */,
+				EC8A180619931B4200DAF1FB /* InfoPlist.strings */,
+				EC8A180919931B4200DAF1FB /* main.m */,
+				EC8A180B19931B4200DAF1FB /* 手势解锁-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8A182219931B4200DAF1FB /* 手势解锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A182819931B4200DAF1FB /* ____Tests.m */,
+				EC8A182319931B4200DAF1FB /* Supporting Files */,
+			);
+			path = "手势解锁Tests";
+			sourceTree = "<group>";
+		};
+		EC8A182319931B4200DAF1FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A182419931B4200DAF1FB /* 手势解锁Tests-Info.plist */,
+				EC8A182519931B4200DAF1FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8A17F919931B4200DAF1FB /* 手势解锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A182C19931B4200DAF1FB /* Build configuration list for PBXNativeTarget "手势解锁" */;
+			buildPhases = (
+				EC8A17F619931B4200DAF1FB /* Sources */,
+				EC8A17F719931B4200DAF1FB /* Frameworks */,
+				EC8A17F819931B4200DAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手势解锁";
+			productName = "手势解锁";
+			productReference = EC8A17FA19931B4200DAF1FB /* 手势解锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8A181A19931B4200DAF1FB /* 手势解锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A182F19931B4200DAF1FB /* Build configuration list for PBXNativeTarget "手势解锁Tests" */;
+			buildPhases = (
+				EC8A181719931B4200DAF1FB /* Sources */,
+				EC8A181819931B4200DAF1FB /* Frameworks */,
+				EC8A181919931B4200DAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8A182119931B4200DAF1FB /* PBXTargetDependency */,
+			);
+			name = "手势解锁Tests";
+			productName = "手势解锁Tests";
+			productReference = EC8A181B19931B4200DAF1FB /* 手势解锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8A17F219931B4200DAF1FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iThinker;
+				TargetAttributes = {
+					EC8A181A19931B4200DAF1FB = {
+						TestTargetID = EC8A17F919931B4200DAF1FB;
+					};
+				};
+			};
+			buildConfigurationList = EC8A17F519931B4200DAF1FB /* Build configuration list for PBXProject "手势解锁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8A17F119931B4200DAF1FB;
+			productRefGroup = EC8A17FB19931B4200DAF1FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8A17F919931B4200DAF1FB /* 手势解锁 */,
+				EC8A181A19931B4200DAF1FB /* 手势解锁Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8A17F819931B4200DAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A181619931B4200DAF1FB /* Images.xcassets in Resources */,
+				EC8A180819931B4200DAF1FB /* InfoPlist.strings in Resources */,
+				EC8A181119931B4200DAF1FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A181919931B4200DAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A182719931B4200DAF1FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8A17F619931B4200DAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A181419931B4200DAF1FB /* YZViewController.m in Sources */,
+				EC8A180A19931B4200DAF1FB /* main.m in Sources */,
+				EC8A1834199353D700DAF1FB /* YZLockView.m in Sources */,
+				EC8A180E19931B4200DAF1FB /* YZAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A181719931B4200DAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A182919931B4200DAF1FB /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8A182119931B4200DAF1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8A17F919931B4200DAF1FB /* 手势解锁 */;
+			targetProxy = EC8A182019931B4200DAF1FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8A180619931B4200DAF1FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A180719931B4200DAF1FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC8A180F19931B4200DAF1FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A181019931B4200DAF1FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8A182519931B4200DAF1FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A182619931B4200DAF1FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8A182A19931B4200DAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC8A182B19931B4200DAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8A182D19931B4200DAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "手势解锁/手势解锁-Prefix.pch";
+				INFOPLIST_FILE = "手势解锁/手势解锁-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC8A182E19931B4200DAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "手势解锁/手势解锁-Prefix.pch";
+				INFOPLIST_FILE = "手势解锁/手势解锁-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC8A183019931B4200DAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/手势解锁.app/手势解锁";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "手势解锁/手势解锁-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "手势解锁Tests/手势解锁Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC8A183119931B4200DAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/手势解锁.app/手势解锁";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "手势解锁/手势解锁-Prefix.pch";
+				INFOPLIST_FILE = "手势解锁Tests/手势解锁Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8A17F519931B4200DAF1FB /* Build configuration list for PBXProject "手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A182A19931B4200DAF1FB /* Debug */,
+				EC8A182B19931B4200DAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8A182C19931B4200DAF1FB /* Build configuration list for PBXNativeTarget "手势解锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A182D19931B4200DAF1FB /* Debug */,
+				EC8A182E19931B4200DAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC8A182F19931B4200DAF1FB /* Build configuration list for PBXNativeTarget "手势解锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A183019931B4200DAF1FB /* Debug */,
+				EC8A183119931B4200DAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8A17F219931B4200DAF1FB /* Project object */;
+}

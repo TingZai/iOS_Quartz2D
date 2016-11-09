@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6d82;&#x9e26;&#x753b;&#x677f;/YZHandleImageView.m"
+            timestampString = "429173495.09256"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-longPress:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[YZHandleImageView longPress:]"
+                  moduleName = "&#x6d82;&#x9e26;&#x753b;&#x677f;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanzheng/Desktop/%E9%BB%91%E9%A9%AC/0902/%E5%A4%87%E8%AF%BE%E4%BB%A3%E7%A0%81/%E6%B6%82%E9%B8%A6%E7%94%BB%E6%9D%BF/%E6%B6%82%E9%B8%A6%E7%94%BB%E6%9D%BF/YZHandleImageView.m"
+                  timestampString = "429161387.524324"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__31-[YZHandleImageView longPress:]_block_invoke"
+                  moduleName = "&#x6d82;&#x9e26;&#x753b;&#x677f;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanzheng/Desktop/%E9%BB%91%E9%A9%AC/0902/%E5%A4%87%E8%AF%BE%E4%BB%A3%E7%A0%81/%E6%B6%82%E9%B8%A6%E7%94%BB%E6%9D%BF/%E6%B6%82%E9%B8%A6%E7%94%BB%E6%9D%BF/YZHandleImageView.m"
+                  timestampString = "429161387.524562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6d82;&#x9e26;&#x753b;&#x677f;/YZHandleImageView.m"
+            timestampString = "429173495.09256"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "-tap:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6d82;&#x9e26;&#x753b;&#x677f;/YZViewController.m"
+            timestampString = "429161800.818666"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

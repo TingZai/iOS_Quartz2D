@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC544A8D19944558006E80EE /* YZPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC544A8C19944558006E80EE /* YZPaintView.m */; };
+		EC544A901994512A006E80EE /* YZPaintPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EC544A8F1994512A006E80EE /* YZPaintPath.m */; };
+		EC544A9719946232006E80EE /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EC544A9319946232006E80EE /* MBProgressHUD+MJ.m */; };
+		EC544A9819946232006E80EE /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC544A9419946232006E80EE /* MBProgressHUD.bundle */; };
+		EC544A9919946232006E80EE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EC544A9619946232006E80EE /* MBProgressHUD.m */; };
+		EC544A9C199474F1006E80EE /* YZHandleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC544A9B199474F1006E80EE /* YZHandleImageView.m */; };
+		EC544A9F199477D6006E80EE /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = EC544A9E199477D6006E80EE /* UIImage+Tool.m */; };
+		EC8A18421993B73A00DAF1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A18411993B73A00DAF1FB /* Foundation.framework */; };
+		EC8A18441993B73A00DAF1FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A18431993B73A00DAF1FB /* CoreGraphics.framework */; };
+		EC8A18461993B73A00DAF1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A18451993B73A00DAF1FB /* UIKit.framework */; };
+		EC8A184C1993B73A00DAF1FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8A184A1993B73A00DAF1FB /* InfoPlist.strings */; };
+		EC8A184E1993B73A00DAF1FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A184D1993B73A00DAF1FB /* main.m */; };
+		EC8A18521993B73A00DAF1FB /* YZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A18511993B73A00DAF1FB /* YZAppDelegate.m */; };
+		EC8A18551993B73A00DAF1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8A18531993B73A00DAF1FB /* Main.storyboard */; };
+		EC8A18581993B73A00DAF1FB /* YZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A18571993B73A00DAF1FB /* YZViewController.m */; };
+		EC8A185A1993B73A00DAF1FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8A18591993B73A00DAF1FB /* Images.xcassets */; };
+		EC8A18611993B73A00DAF1FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A18601993B73A00DAF1FB /* XCTest.framework */; };
+		EC8A18621993B73A00DAF1FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A18411993B73A00DAF1FB /* Foundation.framework */; };
+		EC8A18631993B73A00DAF1FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A18451993B73A00DAF1FB /* UIKit.framework */; };
+		EC8A186B1993B73A00DAF1FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8A18691993B73A00DAF1FB /* InfoPlist.strings */; };
+		EC8A186D1993B73A00DAF1FB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8A186C1993B73A00DAF1FB /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8A18641993B73A00DAF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8A18361993B73A00DAF1FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8A183D1993B73A00DAF1FB;
+			remoteInfo = "涂鸦画板";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC544A8B19944558006E80EE /* YZPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPaintView.h; sourceTree = "<group>"; };
+		EC544A8C19944558006E80EE /* YZPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPaintView.m; sourceTree = "<group>"; };
+		EC544A8E1994512A006E80EE /* YZPaintPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPaintPath.h; sourceTree = "<group>"; };
+		EC544A8F1994512A006E80EE /* YZPaintPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPaintPath.m; sourceTree = "<group>"; };
+		EC544A9219946232006E80EE /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		EC544A9319946232006E80EE /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		EC544A9419946232006E80EE /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EC544A9519946232006E80EE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EC544A9619946232006E80EE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EC544A9A199474F1006E80EE /* YZHandleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHandleImageView.h; sourceTree = "<group>"; };
+		EC544A9B199474F1006E80EE /* YZHandleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZHandleImageView.m; sourceTree = "<group>"; };
+		EC544A9D199477D6006E80EE /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		EC544A9E199477D6006E80EE /* UIImage+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		EC8A183E1993B73A00DAF1FB /* 涂鸦画板.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "涂鸦画板.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A18411993B73A00DAF1FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC8A18431993B73A00DAF1FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC8A18451993B73A00DAF1FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC8A18491993B73A00DAF1FB /* 涂鸦画板-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "涂鸦画板-Info.plist"; sourceTree = "<group>"; };
+		EC8A184B1993B73A00DAF1FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8A184D1993B73A00DAF1FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8A184F1993B73A00DAF1FB /* 涂鸦画板-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "涂鸦画板-Prefix.pch"; sourceTree = "<group>"; };
+		EC8A18501993B73A00DAF1FB /* YZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAppDelegate.h; sourceTree = "<group>"; };
+		EC8A18511993B73A00DAF1FB /* YZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAppDelegate.m; sourceTree = "<group>"; };
+		EC8A18541993B73A00DAF1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8A18561993B73A00DAF1FB /* YZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZViewController.h; sourceTree = "<group>"; };
+		EC8A18571993B73A00DAF1FB /* YZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZViewController.m; sourceTree = "<group>"; };
+		EC8A18591993B73A00DAF1FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC8A185F1993B73A00DAF1FB /* 涂鸦画板Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "涂鸦画板Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A18601993B73A00DAF1FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC8A18681993B73A00DAF1FB /* 涂鸦画板Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "涂鸦画板Tests-Info.plist"; sourceTree = "<group>"; };
+		EC8A186A1993B73A00DAF1FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8A186C1993B73A00DAF1FB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8A183B1993B73A00DAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A18441993B73A00DAF1FB /* CoreGraphics.framework in Frameworks */,
+				EC8A18461993B73A00DAF1FB /* UIKit.framework in Frameworks */,
+				EC8A18421993B73A00DAF1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A185C1993B73A00DAF1FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A18611993B73A00DAF1FB /* XCTest.framework in Frameworks */,
+				EC8A18631993B73A00DAF1FB /* UIKit.framework in Frameworks */,
+				EC8A18621993B73A00DAF1FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC544A9119946232006E80EE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EC544A9219946232006E80EE /* MBProgressHUD+MJ.h */,
+				EC544A9319946232006E80EE /* MBProgressHUD+MJ.m */,
+				EC544A9419946232006E80EE /* MBProgressHUD.bundle */,
+				EC544A9519946232006E80EE /* MBProgressHUD.h */,
+				EC544A9619946232006E80EE /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		EC8A18351993B73A00DAF1FB = {
+			isa = PBXGroup;
+			children = (
+				EC8A18471993B73A00DAF1FB /* 涂鸦画板 */,
+				EC8A18661993B73A00DAF1FB /* 涂鸦画板Tests */,
+				EC8A18401993B73A00DAF1FB /* Frameworks */,
+				EC8A183F1993B73A00DAF1FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8A183F1993B73A00DAF1FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A183E1993B73A00DAF1FB /* 涂鸦画板.app */,
+				EC8A185F1993B73A00DAF1FB /* 涂鸦画板Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8A18401993B73A00DAF1FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A18411993B73A00DAF1FB /* Foundation.framework */,
+				EC8A18431993B73A00DAF1FB /* CoreGraphics.framework */,
+				EC8A18451993B73A00DAF1FB /* UIKit.framework */,
+				EC8A18601993B73A00DAF1FB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC8A18471993B73A00DAF1FB /* 涂鸦画板 */ = {
+			isa = PBXGroup;
+			children = (
+				EC544A9119946232006E80EE /* MBProgressHUD */,
+				EC8A18501993B73A00DAF1FB /* YZAppDelegate.h */,
+				EC8A18511993B73A00DAF1FB /* YZAppDelegate.m */,
+				EC8A18531993B73A00DAF1FB /* Main.storyboard */,
+				EC8A18561993B73A00DAF1FB /* YZViewController.h */,
+				EC8A18571993B73A00DAF1FB /* YZViewController.m */,
+				EC544A9A199474F1006E80EE /* YZHandleImageView.h */,
+				EC544A9B199474F1006E80EE /* YZHandleImageView.m */,
+				EC544A9D199477D6006E80EE /* UIImage+Tool.h */,
+				EC544A9E199477D6006E80EE /* UIImage+Tool.m */,
+				EC544A8E1994512A006E80EE /* YZPaintPath.h */,
+				EC544A8F1994512A006E80EE /* YZPaintPath.m */,
+				EC544A8B19944558006E80EE /* YZPaintView.h */,
+				EC544A8C19944558006E80EE /* YZPaintView.m */,
+				EC8A18591993B73A00DAF1FB /* Images.xcassets */,
+				EC8A18481993B73A00DAF1FB /* Supporting Files */,
+			);
+			path = "涂鸦画板";
+			sourceTree = "<group>";
+		};
+		EC8A18481993B73A00DAF1FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A18491993B73A00DAF1FB /* 涂鸦画板-Info.plist */,
+				EC8A184A1993B73A00DAF1FB /* InfoPlist.strings */,
+				EC8A184D1993B73A00DAF1FB /* main.m */,
+				EC8A184F1993B73A00DAF1FB /* 涂鸦画板-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8A18661993B73A00DAF1FB /* 涂鸦画板Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A186C1993B73A00DAF1FB /* ____Tests.m */,
+				EC8A18671993B73A00DAF1FB /* Supporting Files */,
+			);
+			path = "涂鸦画板Tests";
+			sourceTree = "<group>";
+		};
+		EC8A18671993B73A00DAF1FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A18681993B73A00DAF1FB /* 涂鸦画板Tests-Info.plist */,
+				EC8A18691993B73A00DAF1FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8A183D1993B73A00DAF1FB /* 涂鸦画板 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A18701993B73A00DAF1FB /* Build configuration list for PBXNativeTarget "涂鸦画板" */;
+			buildPhases = (
+				EC8A183A1993B73A00DAF1FB /* Sources */,
+				EC8A183B1993B73A00DAF1FB /* Frameworks */,
+				EC8A183C1993B73A00DAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "涂鸦画板";
+			productName = "涂鸦画板";
+			productReference = EC8A183E1993B73A00DAF1FB /* 涂鸦画板.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8A185E1993B73A00DAF1FB /* 涂鸦画板Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A18731993B73A00DAF1FB /* Build configuration list for PBXNativeTarget "涂鸦画板Tests" */;
+			buildPhases = (
+				EC8A185B1993B73A00DAF1FB /* Sources */,
+				EC8A185C1993B73A00DAF1FB /* Frameworks */,
+				EC8A185D1993B73A00DAF1FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8A18651993B73A00DAF1FB /* PBXTargetDependency */,
+			);
+			name = "涂鸦画板Tests";
+			productName = "涂鸦画板Tests";
+			productReference = EC8A185F1993B73A00DAF1FB /* 涂鸦画板Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8A18361993B73A00DAF1FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iThinker;
+				TargetAttributes = {
+					EC8A185E1993B73A00DAF1FB = {
+						TestTargetID = EC8A183D1993B73A00DAF1FB;
+					};
+				};
+			};
+			buildConfigurationList = EC8A18391993B73A00DAF1FB /* Build configuration list for PBXProject "涂鸦画板" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8A18351993B73A00DAF1FB;
+			productRefGroup = EC8A183F1993B73A00DAF1FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8A183D1993B73A00DAF1FB /* 涂鸦画板 */,
+				EC8A185E1993B73A00DAF1FB /* 涂鸦画板Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8A183C1993B73A00DAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A185A1993B73A00DAF1FB /* Images.xcassets in Resources */,
+				EC544A9819946232006E80EE /* MBProgressHUD.bundle in Resources */,
+				EC8A184C1993B73A00DAF1FB /* InfoPlist.strings in Resources */,
+				EC8A18551993B73A00DAF1FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A185D1993B73A00DAF1FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A186B1993B73A00DAF1FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8A183A1993B73A00DAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC544A9719946232006E80EE /* MBProgressHUD+MJ.m in Sources */,
+				EC8A18581993B73A00DAF1FB /* YZViewController.m in Sources */,
+				EC8A184E1993B73A00DAF1FB /* main.m in Sources */,
+				EC544A9C199474F1006E80EE /* YZHandleImageView.m in Sources */,
+				EC544A901994512A006E80EE /* YZPaintPath.m in Sources */,
+				EC544A8D19944558006E80EE /* YZPaintView.m in Sources */,
+				EC544A9F199477D6006E80EE /* UIImage+Tool.m in Sources */,
+				EC8A18521993B73A00DAF1FB /* YZAppDelegate.m in Sources */,
+				EC544A9919946232006E80EE /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8A185B1993B73A00DAF1FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8A186D1993B73A00DAF1FB /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8A18651993B73A00DAF1FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8A183D1993B73A00DAF1FB /* 涂鸦画板 */;
+			targetProxy = EC8A18641993B73A00DAF1FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8A184A1993B73A00DAF1FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A184B1993B73A00DAF1FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC8A18531993B73A00DAF1FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A18541993B73A00DAF1FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8A18691993B73A00DAF1FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8A186A1993B73A00DAF1FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8A186E1993B73A00DAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC8A186F1993B73A00DAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8A18711993B73A00DAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "涂鸦画板/涂鸦画板-Prefix.pch";
+				INFOPLIST_FILE = "涂鸦画板/涂鸦画板-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC8A18721993B73A00DAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "涂鸦画板/涂鸦画板-Prefix.pch";
+				INFOPLIST_FILE = "涂鸦画板/涂鸦画板-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC8A18741993B73A00DAF1FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/涂鸦画板.app/涂鸦画板";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "涂鸦画板/涂鸦画板-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "涂鸦画板Tests/涂鸦画板Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC8A18751993B73A00DAF1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/涂鸦画板.app/涂鸦画板";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "涂鸦画板/涂鸦画板-Prefix.pch";
+				INFOPLIST_FILE = "涂鸦画板Tests/涂鸦画板Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8A18391993B73A00DAF1FB /* Build configuration list for PBXProject "涂鸦画板" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A186E1993B73A00DAF1FB /* Debug */,
+				EC8A186F1993B73A00DAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8A18701993B73A00DAF1FB /* Build configuration list for PBXNativeTarget "涂鸦画板" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A18711993B73A00DAF1FB /* Debug */,
+				EC8A18721993B73A00DAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8A18731993B73A00DAF1FB /* Build configuration list for PBXNativeTarget "涂鸦画板Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A18741993B73A00DAF1FB /* Debug */,
+				EC8A18751993B73A00DAF1FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8A18361993B73A00DAF1FB /* Project object */;
+}
